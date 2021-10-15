@@ -1,0 +1,136 @@
+
+/* -----------body--------- */
+
+.body{
+width: 100%;
+height: 600px;
+/* background-color: bisque; */
+display: flex;
+}
+.body-left{
+    flex: 7;
+    /* background-color: rgb(105, 197, 105); */
+    background-image: url("/Ảnh/img.jpg");
+    background-size: cover;
+    opacity: 0.85;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.demo-text{
+    width: 400px;
+    margin: auto;
+    font-weight: 600;
+    /* margin-top: 39px;
+    padding-top: 45px; */
+    color: #a8e287;
+    font-size: 50px;
+    padding-left: 15px;
+}
+.demo-img{
+    width: 250px;
+}
+.body-right{
+    flex: 8;
+    background-color: rgb(238, 216, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-name{
+    height: 35px;
+    width: 100%;
+    text-transform: uppercase ;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 210px;
+}
+.form-resignter{
+    margin-top: 8px;
+    height: 480px;
+    /* background-color: teal; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row-form{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.lablel-name{
+    font-size: 20px;
+    min-width: 150px;
+}
+#name{
+    
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #E81B1B;
+    flex: 1;
+    /* margin-left: 10px; */
+}
+.gender{
+margin-right: 50px;
+font-size: 20px;
+
+}
+#gender{
+    height: 18px;
+    width: 18px;
+}
+#check-box{
+    width: 15px;
+    height: 15px;
+}
+
+.row-form-different{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    padding-top: 10px;
+}
+.btn-sign-2{
+    flex: 1;
+    margin: auto;
+    background-color: #FF7C00;
+    text-decoration: rgb(255, 245, 238);
+}
+.btn-sign-1{
+    flex: 1;
+    margin: auto;
+    background-color: #da3838;
+    
+}
+.row-form-different-2{
+    margin: auto;
+}
+.btn-sign-1:hover{
+    background-color: rgb(175, 33, 33);
+}
+.btn-sign-2:hover{
+    background-color: rgb(194, 108, 10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

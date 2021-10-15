@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/pages/home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="search">
+                <div class="logo">
+                    <a href="#"><img class="imglogo" src="./Ảnh/logooo.png" alt=""></a>
+                </div>
+                <div class="search-right">
+                    <div class="search-box">
+                        <input type="text" id="search-input">
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+
+                    <a class="btn btnS" href="#">
+                        Đăng nhập
+                    </a>
+
+                </div>
+            </div>
+            <div class="panner">
+                <div class="row">
+                    <h1 class="heading-main-text">Đọc Sách</h1>
+                    <p class="slogan">
+                        Đầu tư cho bản thân <br>
+                        Bằng chi phí rẻ nhất
+                    </p>
+                    <a href="#" class="btn btnTGN"> Tham gia ngay</a>
+                </div>
+
+
+            </div>
+
+        </div>
+        <ul class="nav main-nav">           
+            <li id="res-home-btn"><a href="index.html" >Trang Chủ</a></li>
+            <li><a hiref="product.html">Sản Phẩm</a></li>
+            <li><a href="payment.html">Chi Tiết</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="register.html">Đăng Kí</a></li>
+            <li onclick="showExpandNav()"><i class="fas fa-bars"></i></li>
+        </ul>
+        <ul class="main-nav" id="nav-2">           
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a hiref="product.html">Sản Phẩm</a></li>
+            <li><a href="payment.html">Chi Tiết</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="register.html">Đăng Kí</a></li>
+        </ul>
+        <script>
+            function showExpandNav(){
+                let homeBtn = document.querySelector('#res-home-btn');
+
+                homeBtn.classList.toggle('hidden');
+                
+                let mainNav = document.querySelector('.main-nav#nav-2');
+                
+                mainNav.classList.toggle('flex-show')
+            }
+        </script>
+        <div class="body">
+            <div class="body-left">
+                <div class="sale-box">
+                    <div class="sale-box-title">
+                        <p class="sale-box-title-1">Nhân dịp
+                            tết trung thu</p>
+                        <p class="sale-box-title-2">Giảm sốc 30%</p>
+                        <p class="sale-box-title-3">Tất cả các mặt hàng</p>
+                    </div>
+                    <div class="sale-box-content">
+                        <div class="sale-box-content-item">
+                            <img class="sale-box-content-item-img" src="./Ảnh/tt1.jfif" alt="">
+                            <p class="sale-box-content-item-name">
+                                Cuộc Đời Henry-Ford
+                            </p>
+                            <p class="sale-box-content-item-old-pince">115.000đ</p>
+                            <p class="sale-box-content-item-new-price">85.000đ</p>
+                        </div>
+                    d     <div class="sale-box-content-item">
+                            <img class="sale-box-content-item-img" src="./Ảnh/tt2.jpg" alt="">
+                            <p class="sale-box-content-item-name">
+                                Sự Nghiệp Henry-Ford
+                            </p>
+                            <p class="sale-box-content-item-old-pince">144.000đ</p>
+                            <p class="sale-box-content-item-new-price">112.000đ</p>
+                        </div>
+                        <div class="sale-box-content-item">
+                            <img class="sale-box-content-item-img" src="./Ảnh/tt3.jfif" alt="">
+                            <p class="sale-box-content-item-name">
+                                Vì sao bạn mãi nghèo
+                            </p>
+                            <p class="sale-box-content-item-old-pince">190.000đ</p>
+                            <p class="sale-box-content-item-new-price">165.000đ</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="code-sale ">
+                    <h2 class="title">
+                        Mã giảm giá hôm nay
+                    </h2>
+                    <div class="code-sale-content">
+                        <div class="code-sale-content-half">
+                            <div class="code-sale-content-child">
+                                <div class="code-sale-content-child-icon">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <p class="love-book">lovebook</p>
+                                </div>
+                                <div class="code-sale-content-child-content">
+                                    <p class="bold">Hoàn 100% đơn tối thiểu 199k </p>
+                                    <p class="code">mã: Nhathandsome</p>
+                                    <div class="btn btncopy">
+                                        Copy mã
+                                    </div>
+                                    <a href="#" class="chi-tiet">chi tiết</a>
+                                </div>
+                            </div>
+                            <div class="code-sale-content-child">
+                                <div class="code-sale-content-child-icon">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <p class="love-book">lovebook</p>
+                                </div>
+                                <div class="code-sale-content-child-content">
+                                    <p class="bold">Hoàn 100% đơn tối thiểu 199k </p>
+                                    <p class="code">mã: Nhathandsome</p>
+                                    <div class="btn btncopy">
+                                        Copy mã
+                                    </div>
+                                    <a href="#" class="chi-tiet">chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-sale-content-half">
+                            <div class="code-sale-content-child">
+                                <div class="code-sale-content-child-icon">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <p class="love-book">lovebook</p>
+                                </div>
+                                <div class="code-sale-content-child-content">
+                                    <p class="bold">Hoàn 100% đơn tối thiểu 199k </p>
+                                    <p class="code">mã: Nhathandsome</p>
+                                    <div class="btn btncopy">
+                                        Copy mã
+                                    </div>
+                                    <a href="#" class="chi-tiet">chi tiết</a>
+                                </div>
+                            </div>
+                            <div class="code-sale-content-child">
+                                <div class="code-sale-content-child-icon">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <p class="love-book">lovebook</p>
+                                </div>
+                                <div class="code-sale-content-child-content">
+                                    <p class="bold">Hoàn 100% đơn tối thiểu 199k </p>
+                                    <p class="code">mã: Nhathandsome</p>
+                                    <div class="btn btncopy">
+                                        Copy mã
+                                    </div>
+                                    <a href="#" class="chi-tiet">chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trend">
+                    <div class="trend-title">
+                        <h2 class="title">
+                            xu hướng
+                        </h2>
+                        <div class="btn trend-btn">
+
+                            <a href="#">
+                                Theo ngày <i class="fas fa-caret-down"></i>
+                            </a>
+                            <ul class="sub-trend">
+                                <li><a href="#">Theo tuần</a></li>
+                                <li><a href="#">Theo tháng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="trend-content">
+                        <div class="trend-content-box">
+                            <img class="trend-content-box-img" src="./Ảnh/trend1.jpg">
+                            <p class="bold">Deep work</p>
+                            <p class="price">52.000đ</p>
+                            <div class="vote">
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+
+                            </div>
+                            <div class="sold">
+                                <div class="btn-sold">
+                                    <div class="btn-sold-left"></div>
+                                    <div class="btn-sold-right"></div>
+                                </div>
+                                <p class="sold-text">Đã bán 15</p>
+                            </div>
+                        </div>
+                        <div class="trend-content-box">
+                            <img class="trend-content-box-img" src="./Ảnh/trend2.jfif">
+                            <p class="bold">Khởi nghiệp 4.0</p>
+                            <p class="price">68.000đ</p>
+                            <div class="vote">
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+
+                            </div>
+                            <div class="sold">
+                                <div class="btn-sold">
+                                    <div class="btn-sold-left"></div>
+                                    <div class="btn-sold-right"></div>
+                                </div>
+                                <p class="sold-text">Đã bán 19</p>
+                            </div>
+                        </div>
+                        <div class="trend-content-box">
+                            <img class="trend-content-box-img" src="./Ảnh/trend3.jfif">
+                            <p class="bold">Labor day</p>
+                            <p class="price">52.000đ</p>
+                            <div class="vote">
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+
+                            </div>
+                            <div class="sold">
+                                <div class="btn-sold">
+                                    <div class="btn-sold-left"></div>
+                                    <div class="btn-sold-right"></div>
+                                </div>
+                                <p class="sold-text">Đã bán 85</p>
+                            </div>
+                        </div>
+                        <div class="trend-content-box">
+                            <img class="trend-content-box-img" src="./Ảnh/trend4.jfif">
+                            <p class="bold">Nhatnv Comeback</p>
+                            <p class="price">182.000đ</p>
+                            <div class="vote">
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+                                <i style="color: rgb(216, 29, 29);" class="fas fa-star"></i>
+
+                            </div>
+                            <div class="sold">
+                                <div class="btn-sold">
+                                    <div class="btn-sold-left"></div>
+                                    <div class="btn-sold-right"></div>
+                                </div>
+                                <p class="sold-text">Đã bán 999+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-right">
+                <div class="body-right-top">
+
+                    <div class="title-list">
+                        <div class="icon-list">
+                            <i class="fas fa-list-ul"></i>
+                        </div>
+                        <div class="name-list">Danh mục sách</div>
+                    </div>
+                    <div class="nav-list">
+                        <a href="#" class="nav-list-book">Vỹ nhân</a>
+                        <a href="#" class="nav-list-book">Self-help</a>
+                        <a href="#" class="nav-list-book">Kỹ năng</a>
+                        <a href="#" class="nav-list-book">Đầu tư </a>
+                        <a href="#" class="nav-list-book">Tâm lí</a>
+                        <a href="#" class="nav-list-book">Sức khỏe</a>
+                    </div>
+                </div>
+                <div class="body-right-bottom">
+                    <div class="title-hot">
+                        <div class="name-hot">Sách hay tháng 10</div>
+                        <div class="icon-hot">
+                            <i class="fab fa-hotjar"></i>
+                        </div>
+                    </div>
+                    <div class="content-hot">
+                        <div class="book-hot-10th">
+                            <img src="./Ảnh/hot11.png" alt="" class="book-hot-10th-img">
+                            <div class="book-hot-10th-content">
+                                Vì sao các công ty có bước phát triển nhảy vọt?. Đây là cuốn sách nên đọc đối với bất kỳ
+                                lãnh đạo hay quản lý nào!
+                            </div>
+                        </div>
+                        <div class="book-hot-10th">
+                            <img src="./Ảnh/hot2.jfif" alt="" class="book-hot-10th-img">
+                            <div class="book-hot-10th-content">
+                                "Con chó và chùm nho" là tác phẩm kể về chú chó Hois nối tiếp thời cậu Vàng...
+                            </div>
+                        </div>
+                        <div class="book-hot-10th">
+                            <img src="./Ảnh/hot3.jfif" alt="" class="book-hot-10th-img">
+                            <div class="book-hot-10th-content">
+                                Mèo méo meo mèo meo con mèo ngu ngốc đáng yêu cute phô mai que
+                            </div>
+                        </div>
+                        <div class="book-hot-10th">
+                            <img src="./Ảnh/hot4.jfif" alt="" class="book-hot-10th-img">
+                            <div class="book-hot-10th-content">
+                                Truyện ngắn kể về tuổi thơ của những đứa trẻ lớn lên ở một vùng quê nghèo khó, với những
+                                suy nghĩ và rung động tinh tế trong những năm đầu đời.
+                            </div>
+                        </div>
+                        <div class="book-hot-10th">
+                            <img src="./Ảnh/hot5.jfif" alt="" class="book-hot-10th-img">
+                            <div class="book-hot-10th-content">
+                                Cách để quản lí mạng xã hội
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xem-them">
+                        <div class="xem-them-text">Xem thêm</div>
+                        <div class="xem-them-icon">
+                            <i class="fas fa-angle-double-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-items">
+                    <div class="footer-items-logo">
+                        <img class="footer-logo" src="./Ảnh/logooo.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-items">
+                    <div class="footer-items-text">
+                        <h3 class="footer-title">Hỗ Trợ khách hàng</h3>
+                        <p class="footer-info">
+                            Các Câu Hỏi Thường Gặp <br>
+                            Chính Sách Đổi/Trả Hàng <br>
+                            Quy Định Viết Bình Luận
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-items">
+                    <div class="footer-items-text">
+                        <h3 class="footer-title">Thông Tin Liên Hệ</h3>
+                        <p class="footer-info">
+                            Email: info@yeusach.tk <br>
+                            Website: yeusach.tk
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    Copyright 2021 @ yeusach.tk
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

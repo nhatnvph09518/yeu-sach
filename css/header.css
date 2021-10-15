@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.search{
+    min-height: 80px;
+    width: 100%;
+    /* background-color: bisque; */
+    
+    align-items: center;
+    display: flex;
+    
+}
+.logo{
+    flex: 2;
+    
+}
+.imglogo{
+    
+    /* width: 100px; */
+    height: 60px;
+    border-radius: 15px;
+    margin-left: 10px;
+
+    
+}
+.search-right{
+    height: 80px;
+    flex: 1;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* border: 1px solid sienna; */
+    align-items: center;
+}
+
+.search-box{
+    
+    position: relative;
+    width: 180px;
+    height: 30px;
+    /* background-color: beige; */
+    /* border-radius: 15px; */
+    margin-left: 100px;
+   
+}
+#search-input{
+    width: 230px;
+    height: 100%;
+    border-radius:15px;
+    padding: 5px 45px 5px 20px;
+}
+.search-icon{
+    
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    transform: translate(0,-50%);
+    
+}
+
+.btn{
+    
+    background-color: #FF7C00;
+    border-radius: 15px; 
+   text-decoration: none;
+     text-align: center;
+      padding: 10px 25px; 
+      color: snow;
+}
+.btn:hover{
+    background-color: #cf6e14;
+}
+.btnS{
+    
+    position: absolute;
+    right: 35px;
+    
+}
+
+@media only screen and (max-width: 786px) {
+
+    .btn{
+        border-radius: 10px;
+    }
+
+}
+
+.panner{
+    background-image: url("../Ảnh/table-book-read-light-wood-reading-927264-pxhere.com.jpg");
+    background-size: cover;
+    background-position: 0px -424px;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+.row{
+    width: 1140px;
+    padding-left: 100px;
+    padding-top: 40px;
+    
+
+}
+.btnTGN{
+    position: absolute;
+    /* top: 250px; */
+    margin-top: 20px;
+}
+.heading-main-text{
+    color: linen;
+    /* padding-left: 40px; */
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.slogan{
+    color: linen;
+    font-size: 25px;
+}
+

@@ -1,0 +1,29 @@
+.main-nav{
+    list-style: none;
+    background-color: rgb(61 73 107);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+
+.main-nav li{
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.main-nav li:hover{
+    
+    background-color: #80b4d0;
+}
